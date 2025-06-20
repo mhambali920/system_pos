@@ -17,7 +17,7 @@ const mainNavItems: NavItem[] = [
         title: 'Settings',
         href: '/admin/settings',
         icon: Settings,
-    }
+    },
 ];
 
 const footerNavItems: NavItem[] = [

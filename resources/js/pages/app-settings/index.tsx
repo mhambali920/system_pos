@@ -122,6 +122,7 @@ export default function Index({ settings }: { settings: Setting[] }) {
             preserveScroll: true,
             onSuccess: () => {
                 resetAddForm();
+                clearAddErrors();
                 toast.success('Setting added successfully!');
             },
             onError: (formErrors) => {
